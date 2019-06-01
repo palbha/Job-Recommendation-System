@@ -1,0 +1,11 @@
+## Web based application using Dash Framework ##
+
+The attached code and files are required for successfull deployment .
+Before directly jumping to run the file , make sure you have connected to your database 
+and updated the password and user id as and when required.
+Also you may use the pd.read_csv directly and read the file .
+We have used database as we plan to update our database with more job details on a weekly basis .
+
+
+To run the file go to your command prompt and type:
+python Python_project(dash).py
