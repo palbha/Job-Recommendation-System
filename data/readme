@@ -1,0 +1,14 @@
+##Webscarping Codes
+
+The attached codes are for webscraping the job related details from different website namely monster , shine and times-now .
+We queried jobs related to data science and saved it as a csv file .
+You can also use data from naukri (webscraping code already present in my repo)
+The data was then stored into an excel file which contains data from all the three website.
+The excel file was used to upload Mysql database and a jobs database with table name jobs was created .
+
+
+Possible issues you may counter :
+While uploading data to your Mysql database check the names of columns, they should be appropriate for proper working of the Dash web app .
+
+FYI:
+'title', 'company', 'min_exp(yrs)', 'max_exp(yrs)', 'salary','location', 'Posted on', 'keyskills', 'job_portal', 'url'
